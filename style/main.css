@@ -1,0 +1,55 @@
+@font-face
+{
+    font-family: "shabnam";
+    src: url('../fonts/Shabnam.woff');
+}
+
+@font-face
+{
+    font-family: "shabnam";
+    font-weight: bold;
+    src: url('../fonts/Shabnam-Bold.woff');
+}
+
+
+@font-face
+{
+    font-family: "yekan";
+    src: url('../fonts/BYekan.woff');
+}
+
+
+
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #585555;*/
+    font-family: shabnam;
+}
+
+a,a:hover,a:active
+{
+    text-decoration: none;
+    color: black;
+}
+
+.itemKala
+{
+    box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
+
+
+
+.kadrItemKala:hover
+{
+    scale: 1.02;
+    transition: all 0.3s;
+}
+
+.kadrItemKala
+{
+    transition: all 0.3s;
+}
+
